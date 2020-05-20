@@ -107,22 +107,22 @@
     transform: translateY(5px);
 }
 
-@media screen and (max-width: 580px) {
-    #navbar {
-        //   padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
-        display: flex;
-        padding: 0;
-        flex-wrap: row wrap;
-    }
-    .navBlock {
-        padding: 0px;
-    }
-    #navbar a {
-        // float: none;
-        // display: block;
-        // text-align: left;
-    }
-    // #navbar-right {
-    //     float: none;
-    // }
-}
+// @media screen and (max-width: 580px) {
+//     #navbar {
+//         //   padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+//         display: flex;
+//         padding: 0;
+//         flex-wrap: row wrap;
+//     }
+//     .navBlock {
+//         padding: 0px;
+//     }
+//     #navbar a {
+//         // float: none;
+//         // display: block;
+//         // text-align: left;
+//     }
+//     // #navbar-right {
+//     //     float: none;
+//     // }
+// }
