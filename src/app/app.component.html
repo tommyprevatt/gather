@@ -1,10 +1,27 @@
-<div class="navbar teal topBotomBordersOut navbar-right">
-  <!-- <div class="row nav-items" > -->
-
-    <a>HOME</a>
-    <a>ARTICLES</a>
-    <a>PORTFOLIO</a>
-    <a>ABOUT</a>
-    <a>CONTACT</a>
-  <!-- </div> -->
+<!-- <div class="container"> -->
+  <div class="navbar topBotomBordersOut navbar-right">
+  <div *ngFor="let item of links" class="navBlock" id="{{item}}">
+    <a>{{item}}</a>
+  </div>
 </div>
+
+<!-- <img src="../assets/images/table.jpg" style="position: absolute; top: 0; z-index: -2; width: 100%;"> -->
+<img src="../assets/images/husbandbride.jpeg" style="position: absolute; top: 0; z-index: -2; width: 100%;">
+
+<!-- </div>   maybe like it in container-->
+
+<!-- <div class="home navBlock">
+  <a>HOME</a>
+</div>
+<div class="events navBlock">
+  <a>EVENTS</a>
+</div>
+<div class="services navBlock">
+  <a>SERVICES</a>
+</div>
+<div class="who navBlock">
+  <a>WHO</a>
+</div>
+<div class="contact navBlock">
+  <a>CONTACT</a>
+</div> -->
